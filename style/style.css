@@ -1,0 +1,121 @@
+:root {
+  --main-color: rgba(33, 33, 33, 1);
+  --main-backgroundcolor: #e5e5e5;
+  --hover-color: rgba(33, 150, 243, 1);
+}
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--main-color);
+  background-color: #e5e5e5;
+}
+/* header */
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+}
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  color: var(--main-color);
+}
+.link:hover {
+  color: var(--hover-color);
+}
+.link:focus {
+  color: var(--hover-color);
+}
+.con {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  color: rgba(117, 117, 117, 1);
+}
+/* Main section */
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: rgba(255, 255, 255, 1);
+}
+.main-button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+.main-button :hover :focus {
+  color: #2196f3;
+}
+/* Наши преимущества */
+.adva-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.adva-text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+}
+.services {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+}
+/* Team */
+.team {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16px;
+}
+.people-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.people-skil {
+  font-size: 16px;
+  line-height: 1.18;
+  color: #757575;
+}
+/* Футер */
+.address {
+  font-style: normal;
+}
+.address-street {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffff;
+}
+.address-con {
+  line-height: 1.71;
+}
+/* кнопки портфолио */
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+}
+.button:hover {
+  color: #ffff;
+  background-color: rgba(33, 150, 243, 1);
+}
+.button:focus {
+  color: rgba(33, 150, 243, 1);
+}
+/* контент портфолио */
+.content-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+}
+.content-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+}
